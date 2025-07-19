@@ -16,7 +16,7 @@ button:focus{
 body{
     height: 100vh;
    
-    background-color: #1b2a49;
+    background-color: #1f4a59;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,8 +29,9 @@ body{
     flex-direction: column;
     text-align: center;
     border-radius: 5%;
+    width: 90%;
+    max-width: 400px;
     height: 500px;
-    width: 500px;
     padding-left: 10px;
     box-shadow:0 0 8px rgb(7, 103, 103); 
 }
@@ -50,10 +51,10 @@ h2{
 }
     
 input::placeholder{
-    color: #333;
-    font-size: 1rem;
+    color: #2e2d2d;
+ 
     font-style: italic;
-    font-family: 'Arial',sans-serif;
+   
 }
 
 
@@ -87,7 +88,7 @@ input::placeholder{
 
 
 #tasklist li{
-    background: linear-gradient(90deg, #06495e, #066886);
+    background: linear-gradient(90deg, #046e9b, #057394);
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -116,22 +117,5 @@ ul{
 }
 
 
-/* li button{
-    background-color: rgb(200, 191, 72);
-    padding: 5px;
-    border-radius: 10px;
-}
 
-button{
-    padding: 6px 8px;
-}
-
-ul{
-    list-style: none;
-}
-
-#tasklist{
-    padding: 0px;
-    margin: 0px;
-} */
 
