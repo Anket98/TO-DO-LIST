@@ -16,7 +16,7 @@ button:focus{
 body{
     height: 100vh;
    
-    background-color: #1f4a59;
+    background-color:#011d38;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,7 +66,7 @@ input::placeholder{
 }
 #add-btn{
     padding: 10px 15px;
-    background-color: #2b8f88;
+    background-color: #2573c7;
     color: white;
     border-radius: 5px;
     border: none;
@@ -88,7 +88,7 @@ input::placeholder{
 
 
 #tasklist li{
-    background: linear-gradient(90deg, #046e9b, #057394);
+    background: linear-gradient(90deg, #01376a, #01376a);
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
